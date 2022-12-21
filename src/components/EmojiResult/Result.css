@@ -1,0 +1,39 @@
+.ResultPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 25rem;
+
+    margin-top: 1rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.ResultEmoji{
+    width: 100%;
+}
+.Emoji{
+    display: flex;
+    padding: 1rem;
+    background-color: aliceblue;
+    border: 1px solid #bbb;
+    width: 95%;
+}
+.symbolCss{
+    margin-right: 0.5rem;
+}
+.RightSide{
+    margin-left: auto;
+    margin-right: 2rem;
+    display: none;
+}
+.Emoji:hover{
+    background-color: #e0e0e0;
+    text-decoration: 500ms;
+}
+.Emoji:hover .RightSide{
+    display: block;
+}
+:-webkit-scrollbar {
+    width: 0.5rem;
+}
